@@ -1,0 +1,174 @@
+.page{
+	width: 1260px;
+	background-color: #EDF2C5;
+	margin: 0 auto;
+}
+
+.headline{
+	width: 271px;
+	padding: 0px;
+	margin: 0px 468px 8px 0px;
+}
+
+.item{
+	font-size: 44px;
+	color: #778A50;
+	font-family: Arial Black;
+	padding-top: 53px
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: baseline;
+	width: 940px;
+	box-sizing: border-box;
+	margin-right: 160px;
+	margin-left: 160px;
+	margin-top: 53px;
+}
+
+.sidebar{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.sidebar img, h4, hr{
+	margin: 5px;
+}
+
+hr{
+	color: #778A50;
+	height: 25px;
+	width: 1px;
+	display: block;
+}
+
+.sidebar h4{
+	color: #778A50;
+	font-size: 12px;
+	font-family: Arial Black;
+	padding: 3px 7px;
+	border: 1px #778A50 solid;
+	border-radius: 3px;
+}
+
+.navbar{
+	background-color: #778A50;
+	width: 940px;
+	height: 44px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-right: 160px;
+	margin-left: 160px;
+}
+
+.navbar h3{
+	margin: 16px 30px;
+	font-size: 16px;
+	list-style-type: 1;
+	color: #EDF2C5;
+	font-family: Arial Black;
+
+}
+
+.banner{
+	margin-right: 160px;
+	margin-left: 160px;
+}
+
+.content{
+	width: 940px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-right: 160px;
+	margin-left: 160px;
+}
+
+.title{
+	width: 445px;
+	height: 45px;
+	background-color: #778A50;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.title h3{
+	font-size: 16px;
+	font-family: Arial Black;
+	color: #EDF2C5;
+	margin: 15px 30px;
+}
+
+.contentleft, .contentright{
+	margin-top: 30px;
+}
+
+.leftimg{
+	width: 445px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.a, .b {
+    margin-right: 12px;
+}
+
+.text hr{
+	width: 414px;
+	height: 1px;
+	color: #7D7D7D;
+	margin: 0px 15px;
+}
+
+.text{
+	width: 445px;
+	height: 140px;
+	background-color: #F7FBDA;
+	display: flex;
+	flex-direction: column;
+}
+
+p{
+	color: #7D7D7D;
+	font-size: 12px;
+	font-family: ArialMT Regular;
+}
+
+.word{
+	line-height: 1.33;
+	margin: 16px 15px;
+}
+
+.info{
+	line-height: 1.83;
+	margin: 16px 15px;
+}
+
+footer{
+	background-color: #778A50;
+	width: 1260px;
+	height: 60px;
+	margin-top: 35px;
+	display: flex;
+}
+
+footer h6{
+	color: #EDF2C5;
+	font-size: 12px;
+	font-family: ArialMT Regular;
+	margin: 24px 479px 25px 479px;
+}
