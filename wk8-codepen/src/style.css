@@ -1,0 +1,10 @@
+canvas{
+  border: 3px solid black; /*讓canvas看得到*/
+}
+
+html, body{
+  height: 100% /*高度撐滿100%*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
